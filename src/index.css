@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #eaeaea;
+  background: url('img/bg.png');
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+}
+
+h3 {
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.planet {
+  margin: 20px auto;
+  padding: 120px;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  border-radius: 100%;
+  background: radial-gradient(circle at 300px 100px, #5cabff, rgb(14, 16, 158), #000);
+  text-shadow: 1px 1px 25px #000;
+}
+
+button {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+button:active {
+  border: 1px dashed #fff;
+}
+
+button:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .planet {
+    margin: 20px auto;
+    padding: 70px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 100%;
+    background: radial-gradient(circle at 300px 100px, #5cabff, rgb(14, 16, 158), #000);
+    text-shadow: 1px 1px 25px #000;
+  }
+  .planet div {
+    display: none;
+  }
+}
