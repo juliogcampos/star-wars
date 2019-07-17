@@ -5,9 +5,8 @@ Jogo sobre planetas da série Star Wars desenvolvido com [Create React App](http
 
 Dados obtidos da [SWAPI - The Star Wars API](https://swapi.co/).
 
-## Executar
+## Instruções
 
-No terminal, execute a aplicação no modo de desenvolvimento com o comando **npm start**
-
-Abra o navegador e digite o url [http://localhost:3000](http://localhost:3000) para visualizá-la.
+* Instale as dependências da aplicação com o comando **npm install**
+* Execute a aplicação com o comando **npm start**
 
